@@ -7,6 +7,7 @@ Copy File Env
 `
 cp .env-example .env
 `
+
 `
 cp src/.env-example .env
 `
@@ -15,6 +16,7 @@ Setup env
 `
 vim .env
 `
+
 `
 vim src/.env
 `
@@ -33,6 +35,7 @@ docker-compose up -d
 `
 docker exec -it php sh // php คือ container name
 `
+
 `
 chown laravel:laravel /var/www/html
 `
@@ -42,6 +45,7 @@ chown laravel:laravel /var/www/html
 `
 docker-compose run composer install
 `
+
 `
 docker-compose run npm install
 `
