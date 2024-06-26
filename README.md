@@ -1,5 +1,17 @@
 # Laravel-Docker
 Laravel in Dcoker Compose
+Use php 8.2 or higher
+
+`
+Clone repositories
+`
+`
+git clone 
+`
+
+`
+cd to folder
+`
 
 # Setup
 
@@ -23,14 +35,9 @@ vim src/.env
 
 # Run Docker  
 `
-docker-compose up
+docker-compose up -d --build
 `
 
-or
-
-`
-docker-compose up --build
-`
 
 # Run Docker next time
 `
