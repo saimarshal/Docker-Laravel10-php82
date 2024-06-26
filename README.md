@@ -23,7 +23,13 @@ vim src/.env
 
 # Run Docker  
 `
-docker-compose up -d --build
+docker-compose up
+`
+
+or
+
+`
+docker-compose up --build
 `
 
 # Run Docker next time
