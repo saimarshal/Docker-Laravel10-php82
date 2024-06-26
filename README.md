@@ -43,6 +43,10 @@ chown laravel:laravel /var/www/html
 
 # Dependencies Install
 `
+cd src
+`
+
+`
 docker-compose run composer install
 `
 
